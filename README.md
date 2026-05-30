@@ -17,10 +17,10 @@ A Wuhan University (WHU) themed Beamer template for academic presentations. Both
 ### English Version
 
 ```bash
-pdflatex Slide.tex
+xelatex Slide.tex
 bibtex Slide
-pdflatex Slide.tex
-pdflatex Slide.tex
+xelatex Slide.tex
+xelatex Slide.tex
 ```
 
 ### Chinese Version / 中文版
@@ -34,11 +34,8 @@ xelatex Slide-zh.tex
 
 ## Dependencies / 依赖
 
-- **TeX Live** (recommended: full installation)
-- LaTeX packages (included in TeX Live):
-  - `beamer`, `ctex` (Chinese version only), `pgfornament-han` (provides `cncolours.sty` for sakura colors)
-  - `physics2`, `pgfplots`, `tcolorbox`, `gbt7714`, `booktabs`, `listings`, `subcaption`, etc.
-- For Chinese: `fandol` fontset (or switch to your preferred `ctex` fontset)
+- **TeX Live** (full installation recommended)
+- Chinese version requires `ctex` + `fandol` fontset (or your preferred `ctex` fontset)
 
 ## Customization / 自定义
 
