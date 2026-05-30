@@ -8,9 +8,17 @@ A Wuhan University (WHU) themed Beamer template for academic presentations. Both
 
 ## Preview / 预览
 
-| English (`Slide.tex`) | Chinese (`Slide-zh.tex`) |
+### Title Pages / 标题页
+
+| English | Chinese |
 |---|---|
-| English presentation template | 中文演示模板（需要 `ctex` + `xelatex`） |
+| ![English title](preview-en-title.png) | ![Chinese title](preview-zh-title.png) |
+
+### Content Demo / 内容演示
+
+| English | Chinese |
+|---|---|
+| ![English content](preview-en-content.png) | ![Chinese content](preview-zh-content.png) |
 
 ## Quick Start / 快速开始
 
